@@ -1,18 +1,30 @@
 body {
   color: #182f43;
 }
-
 h1,
-h4 {
+h5 {
   text-align: center;
 }
+
 .contact {
-  border: solid 2px blue;
+  border: solid 4px #182f43;
   text-align: center;
   width: 600px;
   padding: 40px;
   display: block;
   margin: 0 auto;
+}
+i {
+  color: #182f43;
+  margin-right: 8px;
+  font-size: 25px;
+}
+.email a {
+  text-decoration: none;
+  color: #182f43;
+}
+.email a:hover {
+  text-decoration: underline;
 }
 .img1,
 .img5,
@@ -26,10 +38,11 @@ h4 {
 }
 .imgJN {
   width: 300px;
+  border: solid 7px #182f43;
 }
 .infotext {
-  width: 500px;
   margin-top: 50px;
+  font-size: 25px;
 }
 .img2,
 .img3,
@@ -41,4 +54,21 @@ footer {
   background-color: #182f43;
   color: #ffffff;
   padding: 5px;
+}
+@media (max-width: 600px) {
+  .contact {
+    width: 270px;
+  }
+  .email,
+  .phone {
+    font-size: 10px;
+  }
+  i {
+    font-size: 15px;
+  }
+}
+@media (max-width: 400px) {
+  h1 {
+    font-size: 18px;
+  }
 }
