@@ -1,0 +1,44 @@
+body {
+  color: #182f43;
+}
+
+h1,
+h4 {
+  text-align: center;
+}
+.contact {
+  border: solid 2px blue;
+  text-align: center;
+  width: 600px;
+  padding: 40px;
+  display: block;
+  margin: 0 auto;
+}
+.img1,
+.img5,
+.img6 {
+  width: 300px;
+  margin: 20px 40px;
+}
+.row {
+  text-align: center;
+  margin-top: 30px;
+}
+.imgJN {
+  width: 300px;
+}
+.infotext {
+  width: 500px;
+  margin-top: 50px;
+}
+.img2,
+.img3,
+.img4 {
+  width: 300px;
+  margin: 20px 40px;
+}
+footer {
+  background-color: #182f43;
+  color: #ffffff;
+  padding: 5px;
+}
