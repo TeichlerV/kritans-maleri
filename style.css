@@ -30,7 +30,7 @@ i {
 .img5,
 .img6 {
   width: 300px;
-  margin: 20px 40px;
+  margin-top: 20px;
 }
 .row {
   text-align: center;
@@ -48,7 +48,8 @@ i {
 .img3,
 .img4 {
   width: 300px;
-  margin: 20px 40px;
+
+  margin-top: 20px;
 }
 footer {
   background-color: #182f43;
@@ -57,18 +58,27 @@ footer {
 }
 @media (max-width: 600px) {
   .contact {
-    width: 270px;
+    width: 280px;
   }
   .email,
   .phone {
-    font-size: 10px;
+    font-size: 13px;
   }
   i {
     font-size: 15px;
+  }
+  .infotext {
+    font-size: 15px;
+  }
+  .imgJN {
+    width: 150px;
   }
 }
 @media (max-width: 400px) {
   h1 {
     font-size: 18px;
+  }
+  h5 {
+    font-size: 12px;
   }
 }
