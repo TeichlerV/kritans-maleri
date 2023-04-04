@@ -59,17 +59,17 @@ footer {
 }
 @media (max-width: 600px) {
   .contact {
-    width: 280px;
+    width: 290px;
   }
   .email,
   .phone {
-    font-size: 13px;
+    font-size: 15px;
   }
   i {
-    font-size: 15px;
+    font-size: 20px;
   }
   .infotext {
-    font-size: 15px;
+    font-size: 18px;
   }
   .imgJN {
     width: 150px;
@@ -77,9 +77,9 @@ footer {
 }
 @media (max-width: 400px) {
   h1 {
-    font-size: 18px;
+    font-size: 20px;
   }
   h5 {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
