@@ -1,5 +1,6 @@
 body {
   color: #182f43;
+  font-family: "Libre Franklin", sans-serif;
 }
 h1,
 h5 {
@@ -71,9 +72,6 @@ footer {
   .infotext {
     font-size: 18px;
   }
-  .imgJN {
-    width: 150px;
-  }
 }
 @media (max-width: 400px) {
   h1 {
@@ -81,5 +79,10 @@ footer {
   }
   h5 {
     font-size: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .imgJN {
+    width: 150px;
   }
 }
